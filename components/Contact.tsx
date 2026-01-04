@@ -2,7 +2,7 @@ import Section from "./Section";
 
 export default function Contact() {
   return (
-    <Section>
+    <section id="contact" className="py-24">
       <h2 className="text-3xl font-semibold mb-6">Contact</h2>
 
       <p className="text-gray-300 max-w-xl mb-6">
@@ -16,6 +16,6 @@ export default function Contact() {
       >
         ✉️ tushar.das5@gmail.com
       </a>
-    </Section>
+    </section>
   );
 }
