@@ -11,7 +11,7 @@ export default function Tech() {
     Backend: ["Golang", "Node.js"],
     Databases: ["MySQL", "MongoDB"],
     Payments: ["Stripe", "MyFatoorah"],
-    DevOps: ["AWS", "Docker", "Kubernetes", "GCP"]
+    DevOps: ["AWS", "Docker", "Kubernetes", "GCP", "Harness", "Rancher"]
   }).map(([k,v]) => (
     <div key={k} className="bg-neutral-900/80 backdrop-blur p-6 rounded">
       <h3 className="font-semibold mb-2">{k}</h3>
