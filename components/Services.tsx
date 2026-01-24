@@ -12,6 +12,7 @@ export default function Services() {
   <li>API design & development</li>
   <li>Bug fixes & performance optimization</li>
   <li>Cloud & DevOps setup</li>
+  <li>Microservice Architectures</li>
 </ul>
 
     </Section>
